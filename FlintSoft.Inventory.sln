@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{694D546F-77AC-4796-9C08-55B3C03FF165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlintSoft.Inventory.Domain", "src\FlintSoft.Inventory.Domain\FlintSoft.Inventory.Domain.csproj", "{4C58B723-DBB0-4940-B288-22FDF3CC0D5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C58B723-DBB0-4940-B288-22FDF3CC0D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C58B723-DBB0-4940-B288-22FDF3CC0D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C58B723-DBB0-4940-B288-22FDF3CC0D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C58B723-DBB0-4940-B288-22FDF3CC0D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C58B723-DBB0-4940-B288-22FDF3CC0D5D} = {694D546F-77AC-4796-9C08-55B3C03FF165}
 	EndGlobalSection
 EndGlobal
