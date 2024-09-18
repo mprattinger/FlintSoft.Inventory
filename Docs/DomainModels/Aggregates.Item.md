@@ -3,12 +3,12 @@
 ## Item
 
 ```csharp
-class Yard {
-    Yard Create();
-    void AddItem(Item item);
+class Item {
+    Item Create();
+    void Modify(Item item);
     void RemoveItem(Item item);
-    Yard ModifyYard(Yard yard);
-    void DeleteYard(Yard storage);
+    void AddToYard(Item item, Yard yard);
+    void RemoveFromYard(Item item, Yard storage);
 }
 ```
 
