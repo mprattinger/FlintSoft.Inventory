@@ -1,9 +1,9 @@
 ﻿using FlintSoft.Inventory.Domain.Common.Models;
-using FlintSoft.Inventory.Domain.ItemDomain;
-using FlintSoft.Inventory.Domain.UserDomain.ValueObjects;
-using FlintSoft.Inventory.Domain.YardDomain.ValueObjects;
+using FlintSoft.Inventory.Domain.ItemAggregate;
+using FlintSoft.Inventory.Domain.UserAggregate.ValueObjects;
+using FlintSoft.Inventory.Domain.YardAggregate.ValueObjects;
 
-namespace FlintSoft.Inventory.Domain.YardDomain;
+namespace FlintSoft.Inventory.Domain.YardAggregate;
 
 public sealed class Yard : AggregateRoot<YardId>
 {

@@ -1,9 +1,9 @@
 ﻿using FlintSoft.Inventory.Domain.Common.Models;
-using FlintSoft.Inventory.Domain.Storage.ValueObjects;
-using FlintSoft.Inventory.Domain.UserDomain.ValueObjects;
-using FlintSoft.Inventory.Domain.YardDomain;
+using FlintSoft.Inventory.Domain.StorageAggregate.ValueObjects;
+using FlintSoft.Inventory.Domain.UserAggregate.ValueObjects;
+using FlintSoft.Inventory.Domain.YardAggregate;
 
-namespace FlintSoft.Inventory.Domain.Storage;
+namespace FlintSoft.Inventory.Domain.StorageAggregate;
 
 public sealed class Storage : AggregateRoot<StorageId>
 {

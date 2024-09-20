@@ -1,17 +1,17 @@
 ﻿using FlintSoft.Inventory.Domain.Common.Models;
 
-namespace FlintSoft.Inventory.Domain.YardDomain.ValueObjects;
+namespace FlintSoft.Inventory.Domain.YardAggregate.ValueObjects;
 
-public sealed class YardTypeId : ValueObject
+public sealed class YardId : ValueObject
 {
     public Guid Value { get; }
 
-    private YardTypeId(Guid value)
+    private YardId(Guid value)
     {
         Value = value;
     }
 
-    public static YardTypeId CreateUnique()
+    public static YardId CreateUnique()
     {
         return new(Guid.NewGuid());
     }

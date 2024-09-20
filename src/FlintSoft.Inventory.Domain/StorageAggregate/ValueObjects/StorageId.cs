@@ -1,17 +1,17 @@
 ﻿using FlintSoft.Inventory.Domain.Common.Models;
 
-namespace FlintSoft.Inventory.Domain.UserDomain.ValueObjects;
+namespace FlintSoft.Inventory.Domain.StorageAggregate.ValueObjects;
 
-public sealed class UserRoleId : ValueObject
+public sealed class StorageId : ValueObject
 {
     public Guid Value { get; }
 
-    private UserRoleId(Guid value)
+    private StorageId(Guid value)
     {
         Value = value;
     }
 
-    public static UserRoleId CreateUnique()
+    public static StorageId CreateUnique()
     {
         return new(Guid.NewGuid());
     }

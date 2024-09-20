@@ -1,6 +1,6 @@
 ﻿using FlintSoft.Inventory.Domain.Common.Models;
 
-namespace FlintSoft.Inventory.Domain.ItemDomain.ValueObjects
+namespace FlintSoft.Inventory.Domain.ItemAggregate.ValueObjects
 {
     public sealed class ItemId : ValueObject
     {

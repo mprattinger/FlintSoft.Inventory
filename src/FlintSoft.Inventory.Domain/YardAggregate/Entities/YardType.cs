@@ -1,7 +1,7 @@
 ﻿using FlintSoft.Inventory.Domain.Common.Models;
-using FlintSoft.Inventory.Domain.YardDomain.ValueObjects;
+using FlintSoft.Inventory.Domain.YardAggregate.ValueObjects;
 
-namespace FlintSoft.Inventory.Domain.YardDomain.Entities;
+namespace FlintSoft.Inventory.Domain.YardAggregate.Entities;
 
 public sealed class YardType : Entity<YardTypeId>
 {

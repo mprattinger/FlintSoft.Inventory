@@ -1,7 +1,7 @@
 ﻿using FlintSoft.Inventory.Domain.Common.Models;
-using FlintSoft.Inventory.Domain.UserDomain.ValueObjects;
+using FlintSoft.Inventory.Domain.UserAggregate.ValueObjects;
 
-namespace FlintSoft.Inventory.Domain.UserDomain.Entities
+namespace FlintSoft.Inventory.Domain.UserAggregate.Entities
 {
     public sealed class UserRole : Entity<UserRoleId>
     {
